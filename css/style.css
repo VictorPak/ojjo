@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,p,ul,li,a{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    min-height: 360px;
+    font-family: 'gilroy';
+}
+
+/* ************************************************** HEADER START*/
+
+header {
+    background: url(../img/header-fon.png) no-repeat center/cover;
+    height: 100vh;
+    padding-top: 25px;
+    position: relative;
+}
+
+.header__nav-link {
+    margin-right: 40px;
+    font-style: 40px;
+    color: #fff;
+    transition: 0.5s;
+}
+.header__nav-link:hover {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff;
+    color: #fff;
+}
